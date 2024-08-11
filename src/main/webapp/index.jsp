@@ -44,14 +44,14 @@
   </div>
 
   <div class="home-img">
-    <img src="../img/hero.png">
+    <img src="../resource/img/hero.png">
   </div>
 </section>
 
 <!--about us-->
 <section class="about" id="about">
   <div class="about-img">
-    <img src="../img/about.png">
+    <img src="../../img/about.png">
   </div>
 
   <div class="about-text">
@@ -70,73 +70,7 @@
     <h2>Lets Check Popular Products</h2>
   </div>
   <div class="shop-content">
-    <!-- <div class="row">
-        <img src="../img/p1.png">
-        <h3>Blueberry Honey</h3>
-        <p>Brief product discription</p>
-        <div class="in-text">
-            <div class="price">
-                <h6>$21.00</h6>
-            </div>
-            <div class="s-btnn">
-                <a>Order Now </a>
-            </div>
-        </div>
-        <div class="top-icon">
-            <a href="#"><i class="bx bx-heart"></i></a>
-        </div>
-    </div>
 
-    <div class="row">
-        <img src="../img/p2.png">
-        <h3>Pure Honey</h3>
-        <p>Brief product discription</p>
-        <div class="in-text">
-            <div class="price">
-                <h6>$21.00</h6>
-            </div>
-            <div class="s-btnn">
-                <a>Order Now</a>
-            </div>
-        </div>
-        <div class="top-icon">
-            <a href="#"><i class="bx bx-heart"></i></a>
-        </div>
-    </div>
-
-    <div class="row">
-        <img src="../img/p3.png">
-        <h3>Raw Honey</h3>
-        <p>Brief product discription</p>
-        <div class="in-text">
-            <div class="price">
-                <h6>$21.00</h6>
-            </div>
-            <div class="s-btnn">
-                <a>Order Now</a>
-            </div>
-        </div>
-        <div class="top-icon">
-            <a href="#"><i class="bx bx-heart"></i></a>
-        </div>
-    </div>
-
-    <div class="row">
-        <img src="../img/p4.png">
-        <h3>RaspBerry Honey</h3>
-        <p>Brief product discription</p>
-        <div class="in-text">
-            <div class="price">
-                <h6>$21.00</h6>
-            </div>
-            <div class="s-btnn">
-                <a>Order Now</a>
-            </div>
-        </div>
-        <div class="top-icon">
-            <a href="#"><i class="bx bx-heart"></i></a>
-        </div>
-    </div> -->
   </div>
   <div class="row-btn">
     <a href="#" class="btn"> All Products<i class="bx bxs-right-arrow"></i></a>
@@ -149,39 +83,29 @@
 <!--shopping cart-->
 <div class="cart-overlay"></div>
 
-<div class="cart">
-  <div class="cart-header">
-    <i class="bx bx-right-arrow-alt cart-close"></i>
-    <h2>Your Cart</h2>
-  </div>
-  <div class="cart-body">
-    <!-- <div class="cart-item">
-        <img src="https://placehold.co/300" alt="" />
-        <div class="cart-item-detail">
-            <h3>Product Name</h3>
-            <h5>$9.99</h5>
-            <div class="cart-item-amount">
-                <i class="bx bx-minus"></i>
-                <span class="qty">0</span>
-                <i class="bx bx-plus"></i>
-                <span class="cart-item-price">0</span>
+<form action="" method="post" id="">
 
-            </div>
-        </div>
-    </div> -->
-  </div>
-  <div class="cart-footer">
-    <div>
-      <strong>Total</strong>
-      <span class="cart-total"></span>
+  <div class="cart">
+    <div class="cart-header">
+      <i class="bx bx-right-arrow-alt cart-close"></i>
+      <h2>Your Cart</h2>
     </div>
-    <button class="cart-clear">Clear Cart</button>
-    <button class="checkout"><a href="checkout.html">Checkout</a></button>
+    <div class="cart-body">
+
+    </div>
+    <div class="cart-footer">
+      <div>
+        <strong>Total</strong>
+        <span class="cart-total"></span>
+      </div>
+      <button class="cart-clear">Clear Cart</button>
+      <button class="checkout"><a href="register.jsp">Checkout</a></button>
+
+    </div>
 
   </div>
 
-</div>
-
+</form>
 <!--Reviews-->
 <section class="review" id="review">
   <div class="middle-text">
