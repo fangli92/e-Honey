@@ -124,25 +124,25 @@ let products = [
     {
         id: 0,
         name: 'Blueberry Honey',
-        image: '../img/p1.png',
+        image: './img/p1.png',
         price: 1200
     },
     {
         id: 1,
         name: 'Pure Honey',
-        image: '../img/p2.png',
+        image: './img/p2.png',
         price: 1200
     },
     {
         id: 2,
         name: 'Raw Honey',
-        image: '../img/p3.png',
+        image: './img/p3.png',
         price: 2200
     },
     {
         id: 3,
         name: 'RaspBerry Honey',
-        image: '../img/p4.png',
+        image: './img/p4.png',
         price: 1230
     },
 ];

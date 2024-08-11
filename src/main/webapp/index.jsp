@@ -44,14 +44,14 @@
   </div>
 
   <div class="home-img">
-    <img src="../resource/img/hero.png">
+    <img src="./img/hero.png">
   </div>
 </section>
 
 <!--about us-->
 <section class="about" id="about">
   <div class="about-img">
-    <img src="../../img/about.png">
+    <img src="./img/about.png">
   </div>
 
   <div class="about-text">
@@ -118,7 +118,7 @@
       <p>The Honey is in great quality and I used it as a ingredents in food. I would definatly re-purchase again.</p>
       <div class="in-box">
         <div class="bx-img">
-          <img src="../img/r1.jpg">
+          <img src="./img/r1.jpg">
         </div>
         <div class="bxx-text">
           <h4>John Karahan</h4>
@@ -138,7 +138,7 @@
       <p>The Honey is in great quality and I used it as a ingredents in food. I would definatly re-purchase again.</p>
       <div class="in-box">
         <div class="bx-img">
-          <img src="../img/r2.jpg">
+          <img src="./img/r2.jpg">
         </div>
         <div class="bxx-text">
           <h4>John Karahan</h4>
@@ -158,7 +158,7 @@
       <p>The Honey is in great quality and I used it as a ingredents in food. I would definatly re-purchase again.</p>
       <div class="in-box">
         <div class="bx-img">
-          <img src="../img/r3.jpg">
+          <img src="./img/r3.jpg">
         </div>
         <div class="bxx-text">
           <h4>John Karahan</h4>
@@ -190,19 +190,19 @@
 
   <div class="container">
     <div class="container-box">
-      <img src="../img/c1.png">
+      <img src="./img/c1.png">
       <h3>11:00 am - 8:00 pm</h3>
       <a href="#">Working Hours</a>
     </div>
 
     <div class="container-box">
-      <img src="../img/c2.png">
+      <img src="./img/c2.png">
       <h3>Honey Springs 555</h3>
       <a href="#">Get Directions</a>
     </div>
 
     <div class="container-box">
-      <img src="../img/c3.png">
+      <img src="./img/c3.png">
       <h3>(555) 123-4567</h3>
       <a href="#">Call Us Now</a>
     </div>
