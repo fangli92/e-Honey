@@ -33,14 +33,15 @@
     <i class='bx bx-cart cart-icon'></i>
     <div class='bx bx-menu' id="menu-icon"></div>
   </div>
+  <a class="btn">Login</a>
 </header>
 
 <!---Home-->
 <section class="home" id="home">
   <div class="home-text">
-    <h1>Meet, <span>Eat &</span> <br> Enjor The true <br> taste</h1>
-    <a href="#" class="btn">Explore Menu<i class="bx bxs-right-arrow" ></i></a>
-    <a href="#" class="btn2">Order Now</a>
+    <h1>Meet, <span>Eat &</span> <br> Enjoy the true <br> Taste</h1>
+    <a href="#shop" class="btn">Explore Menu<i class="bx bxs-right-arrow" ></i></a>
+    <a href="#shop" class="btn2">Order Now</a>
   </div>
 
   <div class="home-img">
@@ -57,7 +58,7 @@
   <div class="about-text">
     <h2>Living well begins <br> with eating well.</h2>
     <p>Over its history as a food, the main uses of honey are in cooking, baking, desserts, as a spread on bread, as an addition
-      to various beverages such as tea, and a sweetner in some commercial beverages and making their favorite food
+      to various beverages such as tea, and a sweetener in some commercial beverages and making their favorite food
     </p>
     <a href="#" class="btn">Explore Story<i class="bx bxs-right-arrow" ></i></a>
   </div>
@@ -67,7 +68,7 @@
 <section class="shop" id="shop">
   <div class="middle-text">
     <h4>Our Shop</h4>
-    <h2>Lets Check Popular Products</h2>
+    <h2>Our Most Popular Products</h2>
   </div>
   <div class="shop-content">
 
@@ -110,12 +111,12 @@
 <section class="review" id="review">
   <div class="middle-text">
     <h4>Our Customer</h4>
-    <h2>Clients Review About Our Food</h2>
+    <h2>Reviews</h2>
   </div>
 
   <div class="review-content">
     <div class="box">
-      <p>The Honey is in great quality and I used it as a ingredents in food. I would definatly re-purchase again.</p>
+      <p>The Honey is in great quality and I used it as an ingredient in food. I would definitely re-purchase again.</p>
       <div class="in-box">
         <div class="bx-img">
           <img src="./img/r1.jpg">
@@ -135,7 +136,7 @@
     </div>
 
     <div class="box">
-      <p>The Honey is in great quality and I used it as a ingredents in food. I would definatly re-purchase again.</p>
+      <p>Loved It!</p>
       <div class="in-box">
         <div class="bx-img">
           <img src="./img/r2.jpg">
