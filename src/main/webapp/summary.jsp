@@ -16,11 +16,13 @@
         request.setAttribute("firstName", u.getFirstName());
     }
 %>
-<h3>Welcome ${firstName}</h3>
+<%--<h3>Welcome ${firstName}</h3>--%>
 <div class="containerCart">
     <div class="checkoutLayout">
         <div class="returnCart">
-            <h1>Cart Summary</h1>
+            <form action="CheckoutController" method="post">
+            <h1>Welcome ${firstName}</h1>
+            <h2>Cart Summary</h2>
             <div class="list">
 
                 <div class="item">
@@ -32,8 +34,12 @@
                     <div class="quantity">5</div>
                     <div class="returnPrice">$433.3</div>
                 </div>
-
             </div>
+
+                <input type="hidden" name="action" value="checkout">
+                <button type="submit">Proceed to Checkout</button>
+                <button type="submit">Edit Cart</button>
+            </form>
         </div>
     </div>
 </div>
@@ -41,12 +47,12 @@
 <script src="checkout.js"></script>
 
 </body>
-<div class="checkoutBtn">
-<form action="CheckoutController" method="post">
-    <input type="hidden" name="action" value="checkout">
-    <button class="btn">Proceed to Checkout</button>
-</form>
-</div>
+<%--<div class="checkoutBtn">--%>
+<%--<form action="CheckoutController" method="post">--%>
+<%--    <input type="hidden" name="action" value="checkout">--%>
+<%--    <button class="btn">Proceed to Checkout</button>--%>
+<%--</form>--%>
+<%--</div>--%>
 </html>
 
 
