@@ -8,18 +8,19 @@
     <title>Register Your Account</title>
     <link rel="stylesheet" href="Register.css">
 </head>
+
 <body>
 <div class="container">
     <div class="register-box">
         <h2>Register Your Information</h2>
-        <form action="confirmRegistration" method="POST">
+        <form action="LoginController" method="post">
             <div class="textbox">
                 <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="name" placeholder="Enter your First name..." maxlength="10" required>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter your First name..." maxlength="10" required>
             </div>
             <div class="textbox">
                 <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="name" placeholder="Enter your Last name..." maxlength="10" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter your Last name..." maxlength="10" required>
             </div>
             <!--      <div class="textbox">-->
             <!--        <label for="username">Username</label>-->
@@ -43,7 +44,6 @@
         <!--    <div class="login-link">-->
         <!--      <p>Already have an account? <a href="index.html">Sign in.</a></p>-->
     </div>
-</div>
 </div>
 </body>
 </html>

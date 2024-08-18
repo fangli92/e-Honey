@@ -17,6 +17,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+<%@ page import="org.example.finalproject.business.User" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%
+  User u = (User) session.getAttribute("user");
+  if (u != null){
+    request.setAttribute("firstName", u.getFirstName());
+  }
+%>
 <header>
   <a href="#" class="logo"><i class='bx bxs-home'></i>Honey</a>
 
@@ -27,13 +35,27 @@
     <li><a href="#review">Our Customer</a></li>
     <li><a href="#contact">Contact Us</a></li>
   </ul>
-
   <div class="nav-icons">
     <i class='bx bx-search'></i>
     <i class='bx bx-cart cart-icon'></i>
     <div class='bx bx-menu' id="menu-icon"></div>
   </div>
-  <a class="btn">Login</a>
+  <c:choose>
+    <c:when test="${firstName == null}">
+      <form action="LoginController" method="post">
+        <input type="hidden" name="action" value="display">
+        <input class="btn" type="submit" value="Login">
+      </form>
+    </c:when>
+    <c:otherwise>
+      <span>Welcome ${firstName}
+      <form action="LoginController" method="post">
+        <input type="hidden" name="action" value="logout">
+        <input class="btn" type="submit" value="Logout">
+      </form>
+      </span>
+    </c:otherwise>
+  </c:choose>
 </header>
 
 <!---Home-->
@@ -84,7 +106,7 @@
 <!--shopping cart-->
 <div class="cart-overlay"></div>
 
-<form action="" method="post" id="">
+<div>
 
   <div class="cart">
     <div class="cart-header">
@@ -99,14 +121,18 @@
         <strong>Total</strong>
         <span class="cart-total"></span>
       </div>
-      <button class="cart-clear">Clear Cart</button>
-      <button class="checkout"><a href="register.jsp">Checkout</a></button>
-
+      <form>
+        <button class="cart-clear">Clear Cart</button>
+      </form>
+      <form action="CheckoutController" method="post">
+        <input type="hidden" name="action" value="display">
+        <button class="checkout">Checkout</button>
+      </form>
     </div>
 
   </div>
 
-</form>
+</div>
 <!--Reviews-->
 <section class="review" id="review">
   <div class="middle-text">

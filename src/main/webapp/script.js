@@ -58,7 +58,7 @@ addToCheckOut.addEventListener("click", function(){
 
 
 
-//show side bar
+//show sidebar
 
 const toggleBtn = document.querySelector(".cart-icon");
 const closeBtn = document.querySelector(".cart-close");

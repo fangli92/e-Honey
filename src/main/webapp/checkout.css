@@ -128,6 +128,11 @@ button{
   
 }
 
+.checkoutBtn {
+  display: flex;
+  align-self: flex-end;
+}
+
 .checkoutLayout{
   display: flex;
   grid-template-columns: repeat(2, 1fr);
